@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="layouts/css/styles.css" />
+  </head>
+  <body class="relative bg-gray-100">
+    <header>
+      <nav class="h-80 bg-hero-mobile sm:bg-hero-desktop bg-center bg-cover flex justify-center">
+        <div class="flex justify-between p-8 max-w-7xl w-full">
+          <img class="z-10 w-auto h-5" src="images/logo.svg" alt=""/>
+          <img id="hamburger-menu" class="z-10 w-auto h-5 sm:hidden" src="images/icon-hamburger.svg" alt="" />
+          <ul class="hidden sm:flex">
+              <li class="ml-6 text-white text-sm font-medium"><a href="#">About</a></li>
+              <li class="ml-6 text-white text-sm font-medium"><a href="#">Discover</a></li>
+              <li class="ml-6 text-white text-sm font-medium"><a href="#">Get Started</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--hero-->
+      <div class="flex justify-center">
+          <div
+            class="relative -top-20 bg-white mx-6 px-6 pt-12 pb-10 border border-gray-100 rounded-xl w-full max-w-2xl"
+          >
+            <img
+              class="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2"
+              src="images/logo-mastercraft.svg"
+              alt=""
+            />
+            <h1 class="text-xl font-bold text-center">
+              Mastercraft Bamboo Monitor Riser
+            </h1>
+            <p class="mt-4 text-sm text-gray-400 font-normal text-center">
+              A beautifully handcrafted monitor stand to reduce neck and eye strain.
+            </p>
+            <div class="mt-6 flex justify-between">
+              <button id="support"
+                class="bg-primary-light w-full mr-2 px-8 text-white text-sm font-bold rounded-full sm:w-52 hover:bg-primary-dark"
+              >
+                Back this project
+              </button>
+              <div id="bookmark-container" class="flex items-center bg-gray-100 rounded-full hover:opacity-60">
+                  <img id="bookmark"  class="w-14 h-auto" src="images/icon-bookmark.svg" alt="" />
+                  <span class="hidden sm:block pl-4 pr-6 text-sm text-gray-700 font-bold">Bookmark</span>
+            </div>
+            </div>
+          </div>
+      </div>
+    </header>
+
+    <!--MAIN SECTION-->
+    <main class="relative -top-10 ">
+      <!--stats-->
+      <div class="flex justify-center">
+          <div class="bg-white mx-6 p-6 border border-gray-100 rounded-xl max-w-2xl w-full">
+            <div class="flex flex-col items-center sm:grid grid-cols-3">
+              <!--stat 1-->
+              <div class="flex flex-col items-center sm:flex-row sm:items-center sm:justify-between sm:mr-4">
+                <div class="text-center sm:text-left">
+                  <h3 class="text-3xl font-bold">$89,914</h3>
+                  <p class="text-sm text-gray-400 font-normal">of $100,00 backed</p>
+                </div>
+                <div class="mt-6 w-20 border-b-2 sm:border-b-0 sm:mt-0 sm:w-0 sm:h-16 sm:border-r-2 "></div>
+              </div>
+              <!--stat 2-->
+              <div class="mt-6 flex flex-col items-center sm:mt-0 sm:flex-row sm:items-center sm:justify-between sm:mr-4">
+                <div class="text-center sm:text-left sm:ml-6">
+                  <h3 class="text-3xl font-bold">5,007</h3>
+                  <p class="text-sm text-gray-400 font-normal">total backers</p>
+                </div>
+                <div class="mt-6 w-20 border-b-2 sm:border-b-0 sm:mt-0 sm:w-0 sm:h-16 sm:border-r-2"></div>
+              </div>
+              <!--stat 3-->
+              <div class="mt-6 sm:mt-0">
+                <div class="text-center sm:text-left sm:ml-6">
+                  <h3 class="text-3xl font-bold">56</h3>
+                  <p class="text-sm text-gray-400 font-normal">days left</p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 w-full h-4 bg-gray-100 rounded-full">
+              <div class="w-3/4 h-full bg-primary-light rounded-full"></div>
+            </div>
+          </div>
+      </div>
+
+      <!--REWARDS-->
+      <div class="flex justify-center">
+          <div
+            class="mt-6 bg-white mx-6 px-6 py-8 border border-gray-100 rounded-xl max-w-2xl"
+          >
+            <h2 class="text-lg font-bold">About this project</h2>
+            <p class="mt-5 text-sm text-gray-400 leading-relaxed">
+              The Mastercraft Bamboo Monitor Riser i a sturdy and stylish platform
+              that elevates your screen to a more comfortable viewing height.
+              Placing your monitor at eye level has the potential to improve your
+              posture and make you more comfortable while at work, helping you stay
+              focused on the task at hand.
+            </p>
+            <p class="mt-5 text-sm text-gray-400 leading-relaxed">
+              Featuring artisan craftsmanship, the simplicity of design creates
+              extra desk space below your computer to allow notepads, pens, and USB
+              sticks to be stored under the stand.
+            </p>
+            <!--reward 1-->
+            <div class="mt-8 border-2 border-gray-200 rounded-lg p-6">
+              <div>
+                <h3 class="font-bold">Bamboo Stand</h3>
+                <span class="text-primary-light font-medium"
+                  >Pledge $25 or more</span
+                >
+              </div>
+              <p class="mt-4 text-gray-400">
+                You get an ergonomic stand made of natural bamboo. You've helped us
+                launch our promotional campaign, and you'll be added to a special
+                Backer member list.
+              </p>
+              <div class="mt-4">
+                <p class="text-gray-400">
+                  <span class="text-4xl text-gray-900 font-bold mr-2">101</span>
+                  left
+                </p>
+                <button
+                  class="btn--select mt-6 px-8 py-4 bg-primary-light text-white rounded-full hover:bg-primary-dark"
+                >
+                  Select Reward
+                </button>
+              </div>
+            </div>
+            <!--reward 2-->
+            <div class="mt-8 border-2 border-gray-200 rounded-lg p-6">
+              <div>
+                <h3 class="font-bold">Black Edition Stand</h3>
+                <span class="text-primary-light font-medium"
+                  >Pledge $75 or more</span
+                >
+              </div>
+              <p class="mt-4 text-gray-400">
+                You get a Black Special Edition computer stand and a personal thank
+                you. You'll be added to our Backer member list. Shipping is
+                included.
+              </p>
+              <div class="mt-4">
+                <p class="text-gray-400">
+                  <span class="text-4xl text-gray-900 font-bold mr-2">64</span> left
+                </p>
+                <button
+                  class="btn--select mt-6 px-8 py-4 bg-primary-light text-white rounded-full hover:bg-primary-dark"
+                >
+                  Select Reward
+                </button>
+              </div>
+            </div>
+            <!--reward 3-->
+            <div class="mt-8 border-2 border-gray-200 rounded-lg p-6 opacity-50">
+              <div>
+                <h3 class="font-bold">Mahogany Special Edition</h3>
+                <span class="text-primary-light font-medium"
+                  >Pledge $200 or more</span
+                >
+              </div>
+              <p class="mt-4 text-gray-400">
+                You get two Special Edition Mahogany stands, a Backer T-Shirt, and a
+                personal thank you. You'll be added to our Backer member list.
+                Shipping is included.
+              </p>
+              <div class="mt-4">
+                <p class="text-gray-400">
+                  <span class="text-4xl text-gray-900 font-bold mr-2">0</span>
+                  left
+                </p>
+                <button class="mt-6 px-8 py-4 bg-gray-400 text-white rounded-full">
+                  Out of Stock
+                </button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+
+    <!--MODALS-->
+    
+    <!--mobile menu-->
+    <div id="mobile-menu-modal" class="hidden absolute top-0 h-full w-full bg-black bg-opacity-60">
+      <ul class="relative top-24 bg-white border border-gray-200 mx-6 rounded-xl">
+        <li class="text-lg font-bold border-b p-6"><a href="#">About</a></li>
+        <li class="text-lg font-bold border-b p-6"><a href="#">Discover</a></li>
+        <li class="text-lg font-bold  p-6"><a href="#">Get Started</a></li>
+      </ีul>
+    </div>
+
+    <!--back this project-->
+    <div id="support-modal" class="hidden absolute top-0 h-full w-full bg-black bg-opacity-60 flex justify-center">
+        <div class="fixed max-w-lg bg-white border border-gray-200 mx-6 rounded-xl flex flex-col items-center px-6 py-8 top-1/2 -translate-y-1/2">
+            <img class="w-16" src="images/icon-check.svg" alt="">
+            <h4 class="mt-8 text-2xl font-bold text-center">Thanks for your supoort!</h4>
+            <p class="mt-8 text-gray-400 text-sm text-center">Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worledwide. You will get an email once our campaign is completed.</p>
+            <button id="support-exit" class="mt-8 bg-primary-light w-36 px-8 py-4 text-white font-bold rounded-full hover:bg-primary-dark">Got it!</button>
+        </div>
+    </div>
+
+    <!--pledges-->
+    <div id="projects-modal" class="hidden absolute top-0 h-full w-full bg-black bg-opacity-60 flex justify-center items-center" >
+        <div id="projects-container" class="relative bg-white border border-gray-200 mx-6 rounded-xl px-6 py-8  max-w-2xl">
+            <h3 class="font-bold">Back this project</h3>
+            <p class="mt-6 text-gray-500 text-sm">Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
+            <img id="projects-exit" class="absolute top-9 right-6" src="images/icon-close-modal.svg" alt="">
+            
+            <!--pledge 1-->
+            <div class="mt-6 border-2 border-gray-200 rounded-xl py-6">
+              <div class="px-6">
+                  <div class="flex items-center">
+                      <input class="project-input border-2 border-gray-200 w-8 h-8 text-primary-light" type="radio" name="project">
+                      <div class="group">
+                          <h4 class="ml-4 font-bold group-hover:text-primary-light">Pledge with no reward</h4>
+                      </div>
+                  </div>
+                  <p class="mt-5 text-gray-400 text-sm leading-relaxed">Choose to support us without a reward if you simply believe in our project. As a backer, you will be signed up to receive product updates via email.</p>
+                </div>
+                <!--focused extension-->
+                <div class="hidden extend-project flex flex-col sm:flex-row items-center sm:justify-between border-t-2 px-6 pt-4 mt-6">
+                  <p class="text-gray-400 text-sm">Enter your pledge</p>
+                  <form class="mt-4 sm:mt-2 flex items-center ">
+                    <div class="relative">
+                      <span class="absolute left-3 top-1/2 -translate-y-1/2 text-sm font-bold text-gray-400">$</span>
+                      <input  class="focus:border-0  pl-5 border border-primary-dark text-sm font-bold rounded-full w-20 h-10 "  type="number">
+                    </div>
+                    <input class="ml-2 bg-primary-dark text-white text-sm font-bold px-4 h-10 rounded-full " type="submit" value="Continue">
+                  </form>
+                </div>
+            </div>
+            
+            <!--pledge 2-->
+            <div class="mt-6 border-2 border-gray-200 rounded-xl py-6 sm:relative">
+              <div class="px-6">
+                  <div class="flex items-center">
+                      <input class="project-input border-2 border-gray-200 w-8 h-8 text-primary-light" type="radio" name="project">
+                      <div class="ml-4 sm:flex group">
+                        <h4 class="font-bold group-hover:text-primary-light">Bamboo Stand</h4>
+                        <span class="text-primary-light text-medium font-medium sm:ml-2 group-hover:font-bold">Pledge $25 or more</span>
+                      </div>
+                  </div>
+                  <p class="mt-5 text-gray-400 text-sm leading-relaxed">You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you'll be added to a special Backer member list.</p>
+                  <p class="mt-5 text-gray-400 text-sm font-normal sm:absolute top-0 right-8"><span class="mr-1 text-gray-900 text-lg font-bold">101</span> left</p>
+                </div>
+                <!--focused extension-->
+                <div class="hidden extend-project flex flex-col sm:flex-row items-center sm:justify-between border-t-2 px-6 pt-4 mt-6">
+                  <p class="text-gray-400 text-sm">Enter your pledge</p>
+                  <form class="mt-4 sm:mt-2 flex items-center ">
+                    <div class="relative">
+                      <span class="absolute left-3 top-1/2 -translate-y-1/2 text-sm font-bold text-gray-400">$</span>
+                      <input  class="focus:border-0  pl-5 border border-primary-dark text-sm font-bold rounded-full w-20 h-10 "  type="number">
+                    </div>
+                    <input class="ml-2 bg-primary-dark text-white text-sm font-bold px-4 h-10 rounded-full " type="submit" value="Continue">
+                  </form>
+                </div>
+            </div>
+            
+            <!--pledge 3-->
+            <div class="mt-6 border-2 border-gray-200 rounded-xl py-6 sm:relative">
+              <div class="px-6">
+                  <div class="flex items-center">
+                      <input class="project-input border-2 border-gray-200 w-8 h-8 text-primary-light" type="radio" name="project">
+                      <div class="ml-4 sm:flex group">
+                        <h4 class="font-bold group-hover:text-primary-light">Black Edition Stand</h4>
+                        <span class="text-primary-light text-medium font-medium sm:ml-2 group-hover:font-bold">Pledge $75 or more</span>
+                      </div>
+                  </div>
+                  <p class="mt-5 text-gray-400 text-sm leading-relaxed">You get a Black Special Edition computer stand and a personal thank you. You'll be added to our Backer member list. Shipping is included.</p>
+                  <p class="mt-5 text-gray-400 text-sm font-normal sm:absolute top-0 right-8"><span class="mr-1 text-gray-900 text-lg font-bold">64</span> left</p>
+                </div>
+                <!--focused extension-->
+                <div class="hidden extend-project flex flex-col sm:flex-row items-center sm:justify-between border-t-2 px-6 pt-4 mt-6">
+                  <p class="text-gray-400 text-sm">Enter your pledge</p>
+                  <form class="mt-4 sm:mt-2 flex items-center ">
+                    <div class="relative">
+                      <span class="absolute left-3 top-1/2 -translate-y-1/2 text-sm font-bold text-gray-400">$</span>
+                      <input  class="focus:border-0  pl-5 border border-primary-dark text-sm font-bold rounded-full w-20 h-10 "  type="number">
+                    </div>
+                    <input class="ml-2 bg-primary-dark text-white text-sm font-bold px-4 h-10 rounded-full " type="submit" value="Continue">
+                  </form>
+                </div>
+            </div>
+
+            <!--pledge 4-->
+            <div class="opacity-50 mt-6 border-2 border-gray-200 rounded-xl py-6 sm:relative">
+              <div class="px-6">
+                  <div class="flex items-center">
+                      <input class="project-input border-2 border-gray-200 w-8 h-8 text-primary-light" type="radio" name="project">
+                      <div class="ml-4 sm:flex group">
+                        <h4 class="font-bold group-hover:text-primary-light">Mahogany Special Edition</h4>
+                        <span class="text-primary-light text-medium font-medium sm:ml-2 group-hover:font-bold">Pledge $200 or more</span>
+                      </div>
+                  </div>
+                  <p class="mt-5 text-gray-400 text-sm leading-relaxed">You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You'll be added to our Backer member list. Shipping is included.</p>
+                  <p class="mt-5 text-gray-400 text-sm font-normal sm:absolute top-0 right-8"><span class="mr-1 text-gray-900 text-lg font-bold">0</span> left</p>
+                </div>
+                <!--focused extension-->
+                <div class="hidden extend-project flex flex-col sm:flex-row items-center sm:justify-between border-t-2 px-6 pt-4 mt-6">
+                  <p class="text-gray-400 text-sm">Enter your pledge</p>
+                  <form class="mt-4 sm:mt-2 flex items-center ">
+                    <div class="relative">
+                      <span class="absolute left-3 top-1/2 -translate-y-1/2 text-sm font-bold text-gray-400">$</span>
+                      <input  class="focus:border-0  pl-5 border border-primary-dark text-sm font-bold rounded-full w-20 h-10 "  type="number">
+                    </div>
+                    <input class="ml-2 bg-primary-dark text-white text-sm font-bold px-4 h-10 rounded-full " type="submit" value="Continue">
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="layouts/js/main.js"></script>
+  </body>
+</html>
